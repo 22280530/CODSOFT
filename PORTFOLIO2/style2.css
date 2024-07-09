@@ -1,0 +1,507 @@
+.header h1{
+    color:#662400 ;
+}
+
+.header span{
+   color: #FF6B1A;
+}
+
+.header{
+    background-color:#006663;
+    padding: 20px;
+    font-size: 20px;
+}
+*{
+    
+    padding: 0;
+    margin:0;
+}
+.header a{
+    color: #FF6B1A;
+    justify-content: space-between;
+    position: static;
+    width: 100px;
+    height: 90px;
+    padding: 50px;
+    text-decoration: none;
+    
+}
+
+.header a:hover{
+    color: #662400;
+}
+
+.body{
+    font-family: 'poppins','sans-serif';
+}
+
+.name .hi{
+    color:#006663;
+    font-family: 'Poppins','Sans-serif';
+    font-size: 26px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.Mary{
+    padding-left: 100px;
+    font-size: 56px;
+}
+
+.welcomemsg{
+    padding-left: 100px;
+    font-size: 26px;
+}
+.name .job{
+    color: #006663;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+
+.business{
+    height:500px;
+    position:absolute;
+    left:50%;
+    width:500px;
+    padding-left: 100px;
+}
+.CV a{
+    
+    background-color:#006663;
+    border:2px solid;
+    color:aliceblue;
+    border-radius:5px;
+    font-weight: bold;
+    padding-right:10px;
+    padding-left:10px ;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-left: 95px;
+}
+.soc-link a i{
+    font-size: 25px;
+    cursor:pointer;
+    color:#662400;
+    margin:20px 20px 20px 95px;
+
+}
+.about img{
+    padding-right: 20x;
+    padding-top: 20px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+
+}
+
+.about img{
+    height: 350px;
+    width: 350px;
+}
+
+.text{
+    width:500px ;
+    padding-top: 200px;
+    padding-right:10px;
+
+}
+.main{
+    width: 2050px;
+    margin: 0 auto ;
+    display:flex ;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text p{
+    letter-spacing: 1px;     
+    line-height:28px ;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color:#006663 ;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    font-weight: 30px;
+}
+
+
+button:hover{
+    background-color:transparent ;
+    color:#006663;
+    border: 2px solid  ;
+    cursor: pointer;
+}
+.myskills{
+    width: 100vh;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 10px;
+}
+
+.skills{
+    align-items: center;
+    background: #ffffff; 
+    padding-left: 500px;
+}
+
+.skill{
+    width: 100%; 
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar{
+    height: 20px;
+    background: gray;
+    color: #006663;
+    border-radius: 88px;
+}
+
+.skill-per1{
+    height:20px ;
+    background-color: #00b3ad;
+    border-radius: 8px;
+    width: 90%;
+    position: relative;
+}
+.skill-per2{
+    height:20px ;
+    background-color: #00b3ad;
+    border-radius: 8px;
+    width: 70%;
+    position: relative;
+}
+.skill-per3{
+    height:20px ;
+    background-color: #00b3ad;
+    border-radius: 8px;
+    width: 60%;
+    position: relative;
+}
+
+.skill-per1::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    
+}
+
+.skill-per1::after{
+    content: '';
+position: absolute;
+width: 10px;
+height: 10px;
+background-color: ☐ #000;
+top: -16px;
+right: 0;
+transform: transla 2px
+border-radius: 2px;
+}
+.skill-per2::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    
+}
+
+.skill-per2::after{
+    content: '';
+position: absolute;
+width: 10px;
+height: 10px;
+background-color: ☐ #000;
+top: -16px;
+right: 0;
+transform: transla 2px
+border-radius: 2px;
+}
+.skill-per3::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    
+}
+
+.skill-per3::after{
+    content: '';
+position: absolute;
+width: 10px;
+height: 10px;
+background-color: ☐ #000;
+top: -16px;
+right: 0;
+transform: transla 2px
+border-radius: 2px;
+}
+.skill h1{
+    text-align: center;
+    font-size:50px;
+}
+.projects{
+    text-align: center;
+    font-size:25px;
+}
+.PROJECT{
+    
+        width: 500px;
+        padding: 50px 50px;
+        border-radius: 8px;
+        background-color: #00b3ad;
+        box-shadow: 0 0 20px black;
+        color:white;
+
+}
+.PROJECTS2{
+    
+    width: 500px;
+    padding: 50px 50px;
+    border-radius: 8px;
+    background-color: #00b3ad;
+    box-shadow: 0 0 20px black;
+    color:white;
+    margin:30px;
+
+}
+.PROJECTS3{
+    
+    width: 500px;
+    padding: 50px 50px;
+    border-radius: 8px;
+    background-color: #00b3ad;
+    box-shadow: 0 0 20px black;
+    color:white;
+    margin:30px;
+}
+.Resume h1{
+    font-size: 50px;
+    
+}
+.Resume2{
+    width:400px;
+    height:auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: #00b3ad;
+    box-shadow: 0 0 20px black;
+    color:white;
+    margin:30px;
+    align-items: center;
+    
+}
+.CV2 a{
+    
+    background-color:#006663;
+    border:2px solid;
+    color:aliceblue;
+    border-radius:5px;
+    font-weight: bold;
+    padding-right:10px;
+    padding-left:10px ;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.footer-content{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #006663;
+}
+h3{
+    font-size:35px ;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 15px;
+    color:#BF926B;
+}
+
+.footer-content p{
+    width: 200px;
+    margin: auto;
+    padding: 100px;
+}
+.list{
+    padding: 5;
+}
+
+.footer-content  li a{
+    padding-left: 150px;
+}
+.list li{
+    /* width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative; */
+}
+
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    transition-duration: .5s;
+}
+
+.list li:hover::before{
+    width: 70px;
+}
+.footer-content a i{
+    font-size: 25px;
+    cursor:pointer;
+    color:#ffffff;
+    padding-left: 400px;
+    padding-bottom:20px ;
+    display:flexbox;
+    
+
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    cursor:pointer;
+    margin:20px 20px 20px 620px;
+    
+}
+
+a:hover{
+    color: #00B3AD;
+}
+.footer-content i:hover{
+    color:#00B3AD;
+}
+
+.bottom-bar{
+    background: #FF6B1A;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 700px;
+}    
+.hi{
+    font-size: 20px;
+}
+
+.contact-section span {
+    
+    padding: 20px;
+    font-size: 100px;
+}
+
+.contact-heading {
+    margin: 0;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links p {
+    margin: 0;
+    font-size: 40px;
+    padding-right: 500px;
+    color:#F23030;
+    font-style: bold;
+}
+
+.social-links a {
+    display: block;
+    margin: 5px 0;
+    padding-right: 500px;
+    font-size: 30px;
+}
+.Email p{
+    margin: 0;
+    font-size: 40px;
+    padding-right: 500px;
+    color:#F23030;
+    font-style: bold;
+}
+.Email{
+    text-align: right;
+
+}
+.Email a {
+    display: block;
+    margin: 5px 0;
+    padding-right: 500px;
+    font-size: 30px;
+}
+.Contact p{
+    margin: 0;
+    font-size: 40px;
+    padding-right: 500px;
+    color:#F23030;
+    font-style: bold;
+}
+.Contact{
+    text-align: right;
+
+}
+.Contact span {
+    color:black;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 500px;
+}
